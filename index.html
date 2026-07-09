@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Detector-Localizador/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detector</title>
+    <script type="module" crossorigin src="/Detector-Localizador/assets/index-CVCMOTDb.js"></script>
+    <link rel="stylesheet" crossorigin href="/Detector-Localizador/assets/index-PmkDMilT.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":""};
+      (function(d,t) {
+        var BASE_URL="https://orion.webneuron.com.mx";
+        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=BASE_URL+"/packs/js/sdk.js";
+        g.async = true;
+        s.parentNode.insertBefore(g,s);
+        g.onload=function(){
+          window.chatwootSDK.run({
+            websiteToken: 'eGpP9R2ozrR98X25q8fuAiEt',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document,"script");
+    </script>
+  </body>
+</html>
